@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import operator
-
+# https://www.kaggle.com/primaryobjects/voicegender/data - SOURCE OF DATA AND ITS MEANING
 dataset = pd.read_csv('voice.csv')
 
 for col in dataset.drop(['label'],1):

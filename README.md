@@ -1,11 +1,9 @@
 # Gender Recognition by voice
 
-The features used were pre-extracted from the sound signal and stored in a .csv file.
+The unsupervised *k-Nearest Neighbors* (kNN) algorithm was used on 20 pre-extracted features of 3200 audio samples that were stored in a .csv file. Find dataset [here](https://www.kaggle.com/primaryobjects/voicegender).
 
 ## Results
 
-Using the kNN (k - nearest neighbors) model,
+Accuracy (implementation using pure Python; without scikit-learn): **97.16088 %**
 
-Accuracy (scratch implementation): 97.16088 %
-
-Accuracy (library implementation): 97.47634 %
+Accuracy (implementation using scikit-learn): **97.47634 %**
