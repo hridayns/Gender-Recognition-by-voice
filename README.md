@@ -1,6 +1,6 @@
 # Gender Recognition by voice
 
-The unsupervised *k-Nearest Neighbors* (kNN) algorithm was used on 20 pre-extracted features of ~3200 audio samples that were stored in a .csv file. Find dataset [here](https://www.kaggle.com/primaryobjects/voicegender).
+The *k-Nearest Neighbors* (kNN) algorithm was used on 20 pre-extracted features of ~3200 audio samples that were stored in a .csv file. Find dataset [here](https://www.kaggle.com/primaryobjects/voicegender).
 
 ## Results
 
